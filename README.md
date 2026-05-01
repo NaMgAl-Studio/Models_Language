@@ -6,7 +6,7 @@
 
 ---
 
-[📖 中文语法文档 / Chinese Syntax Doc](msla_beta0.0.3_文档.md) | [📖 English Syntax Doc](msla_beta0.0.3_doc_en.md)
+[📖 中文语法文档](msla_beta0.0.3_文档.md) | [📖 English Syntax Doc](msla_beta0.0.3_doc_en.md)
 
 ---
 
