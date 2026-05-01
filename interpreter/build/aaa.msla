@@ -1,0 +1,6 @@
+def var aaa -n
+ass var aaa = 2
+print(aaa)
+ass var aaa = aaa -1
+print(aaa , "hello")
+exit(0)

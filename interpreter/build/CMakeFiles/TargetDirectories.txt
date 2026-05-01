@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/msla/interpreter/build/CMakeFiles/msla_interpreter.dir
+C:/Users/Administrator/Desktop/msla/interpreter/build/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/msla/interpreter/build/CMakeFiles/rebuild_cache.dir
