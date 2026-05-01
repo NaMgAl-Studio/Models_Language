@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/msla/packages_maker/build/CMakeFiles/msla_packages_maker.dir
+C:/Users/Administrator/Desktop/msla/packages_maker/build/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/msla/packages_maker/build/CMakeFiles/rebuild_cache.dir
