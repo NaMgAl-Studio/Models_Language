@@ -1,6 +1,6 @@
 # MSLA — Models Language
 
-> 面向模型化思维、原生支持矩阵与模块化、具备极强扩展性的命令式编程语言
+> 面向模块化思维、原生支持矩阵与模块化、具备极强扩展性的命令式编程语言
 
 > A model-oriented, matrix-native, modular, and highly extensible imperative programming language.
 
