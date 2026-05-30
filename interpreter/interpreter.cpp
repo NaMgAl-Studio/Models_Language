@@ -12,6 +12,8 @@
 
 #ifdef _WIN32
 #include <windows.h>
+#else
+#include <unistd.h>
 #endif
 
 namespace fs = std::filesystem;
@@ -667,8 +669,13 @@ void Interpreter::executeRun(std::shared_ptr<RunStmtNode> node) {
 #ifdef _WIN32
     ShellExecuteA(NULL, "open", path.c_str(), NULL, NULL, SW_SHOWNORMAL);
 #else
-    std::string cmd = "\"" + path + "\" &";
-    std::system(cmd.c_str());
+    pid_t pid = fork();
+    if (pid == 0) {
+        execlp(path.c_str(), path.c_str(), (char*)NULL);
+        _exit(1);
+    } else if (pid < 0) {
+        std::cerr << "Warning: fork() failed for run command" << std::endl;
+    }
 #endif
 }
 
